@@ -1,3 +1,13 @@
+"""
+This implementation of GFDT is created by Haruki Sakagami and Hiroki Arimura.
+
+[reference]
+"坂上 陽規，栗田 和宏 ，瀧川 一学 ，有村 博紀 ，”決定化されたグラフパターントライの学習アルゴリズム”，人工知能学会 第105回人工知能基本問題研究会 (SIG-FPAI) 予稿集, SIG-FPAI-B508, pp. 63-68, 2018年01月".
+
+[contact]
+Haruki Sakagami, sakagami@ist.hokudai.ac.jp (or uminohiyoko@gmail.com)
+"""
+
 import numpy as np
 import time
 from collections import defaultdict

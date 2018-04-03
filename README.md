@@ -2,12 +2,13 @@
 **GFDT** is a fast algorithm for graph classification without preprocessing for feature representation. 
 
 
-## Graph Fragment Decision Tree
+## About GFDT
 GFDT constructs a _Graph Fragment Decision Tree_, a decision tree that has graph-extend operation on its inner nodes.
+Then, each path of decision tree represents a graph pattern.
 Please see the original paper for details.
 
 ## Reference
-This implementation of GFDT is created by Haruki Sakagami, Hiroki Arimura, based on following paper.
+This implementation of GFDT is created by Haruki Sakagami and Hiroki Arimura, based on following paper.
 
  `坂上 陽規，栗田 和宏 ，瀧川 一学 ，有村 博紀 ，”決定化されたグラフパターントライの学習アルゴリズム”，人工知能学会 第105回人工知能基本問題研究会 (SIG-FPAI) 予稿集, SIG-FPAI-B508, pp. 63-68, 2018年01月`
 
