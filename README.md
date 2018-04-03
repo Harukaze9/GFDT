@@ -7,7 +7,7 @@ This implementation of GFDT is created by Haruki Sakagami, Hiroki Arimura, based
  `坂上 陽規，栗田 和宏 ，瀧川 一学 ，有村 博紀 ，”決定化されたグラフパターントライの学習アルゴリズム”，人工知能学会 第105回人工知能基本問題研究会 (SIG-FPAI) 予稿集, SIG-FPAI-B508, pp. 63-68, 2018年01月`
 
 ## Graph Fragment Decision Tree
-GFDT makes a _Graph Fragment Decision Tree_, that is a decision tree that has graph-extend operation on its inner nodes.
+GFDT constructs a _Graph Fragment Decision Tree_, a decision tree that has graph-extend operation on its inner nodes.
 Please see the original paper for details.
 
 ## How to run
@@ -51,7 +51,7 @@ execution time of main.py: 0:00:00.025505
 - -mss: minimum number of samples required to split an internal node(default=2)
 - -s: minimum number of samples in a leaf(default=1)
 
-Parameters are for random forest.
+Following parameters are for random forest(ensemble learning).
 
 - -tree: number of trees (default=10)
 - -res: ratio of randomly chosen feature subset to original feature set(default=0.5)
