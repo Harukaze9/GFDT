@@ -59,4 +59,4 @@ Parameters are for random forest.
 
 
 ## Lisence
-MIT (lisence.txt)
+MIT
