@@ -1,0 +1,35 @@
+t # N y         : Nth graph that has y as its target label
+n M L           : Mth vertex that has L as its vertex label
+e v1 v2 elb     : an edge between vertex v1 and v2 that has elb as its edge label. (redundant because GFDT doesn't use edge label information)
+
+e.g.
+Dataset of four graphs and two target labels(binary classification).
+
+t # 0 0
+v 0 0
+v 1 0
+v 2 1
+e 0 1 0
+e 1 2 0
+e 2 0 0
+t # 1 1
+v 0 0
+v 1 0
+v 2 0
+e 0 1 0
+e 1 2 0
+t # 2 1
+v 0 1
+v 1 0
+v 2 1
+v 3 2
+e 0 1 0
+e 1 2 0
+e 2 0 0
+e 0 3 0
+t # 3 1
+v 0 1
+v 1 2 
+v 2 1
+e 0 1 0
+e 0 2 0
